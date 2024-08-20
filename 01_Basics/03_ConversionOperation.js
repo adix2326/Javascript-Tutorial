@@ -38,3 +38,47 @@ console.log(typeof num);
 console.log(num1);
 console.log(typeof num1);
 
+//************ Operations *********** */
+
+let value = 3
+
+let negValue = -value
+
+console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
+console.log(2**2); //power
+
+let str1 = "Hello"
+let str2 = " Adi"
+let str = str1 + str2
+
+console.log(str);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+
+console.log(true);
+console.log(+true);
+console.log(-true);
+
+console.log(+"");
+console.log(+"adi");
+
+let num0, num2, num3
+num0 = num2 = num3 = 2  + 2
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+++gameCounter;
+console.log(gameCounter);
+
